@@ -1,4 +1,5 @@
 ﻿git 操作:
+git config --global push.default simple
 
 git init
 git remote add origin git@github.com:zgf123/laraapp.git
@@ -10,7 +11,7 @@ git status
 git commit -m "msg"
 git push
 
-git checkou .
+git checkout .
 git clean -f -d
 
 git remote -v
