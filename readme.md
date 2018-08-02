@@ -100,3 +100,12 @@ composer require jpush/jpush
 
 
 composer require laravel/passport:~4.0
+
+
+sudo yarn global add wepy-cli
+wepy init standard ./
+yarn
+wepy build --watch
+
+
+"eslint":"eslint --fix --ext .js,.wpy src"
